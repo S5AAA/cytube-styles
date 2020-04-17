@@ -3406,7 +3406,7 @@ body.congo #wrap>.navbar.navbar-inverse {
     color: #333;
 }
 
-.drink.timestamp {
+.drink .timestamp {
     display: none;
 }
 
