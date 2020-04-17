@@ -3394,27 +3394,25 @@ body.congo #wrap>.navbar.navbar-inverse {
 	background-size: 100% auto
 }
 
-.chat-msg-J3 {
-    color: #f1c40f;
+@keyframes fillbg {
+    0% { background-position: right bottom; }
+    100% { background-position: left bottom; }
 }
 
-.chat-msg-Firsteen { 
-    color: #38f;
-}
-.chat-msg-Firsteen .username {
-    color: #1e2023;
-}
-
-.chat-msg-egrup {
-    color: #f00;
-}
-
-.chat-msg-Cawl {
-    color: #8e9297;
+.drink {
+    border: none;
+    background-color: #f1c40f;
+    background-size: 200% 100%;
+    background: linear-gradient(to right, #f1c40f 50%, #272b30 50%);
+    animation: fillbg 1s linear;
+    margin: 0;
+    border-radius: 2em;
+    text-align: center;
+    color: #333;
 }
 
-.chat-msg-Pirill {
-    color: #835b4f;
+.drink.timestamp {
+    display: none;
 }
 
 .server-msg-reconnect {
@@ -3439,6 +3437,7 @@ body.congo #wrap>.navbar.navbar-inverse {
     border: none;
     border-radius: 1em;
     font-weight: bold;
+    padding: 10px 0;
 }
 
 .btn-danger {
