@@ -2743,16 +2743,6 @@ span.glyphicon.glyphicon-star-empty {
 	animation: color-change 0.5s 300
 }
 
-#voteskip.btn.btn-sm.btn-default:hover {
-	-webkit-animation: color-change 0.5s 300;
-	-moz-animation: color-change 0.5s 300;
-	animation: color-change 0.5s 300;
-	background-image: url("https://i.imgur.com/L0NY8l7.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-color: silver
-}
-
 .userlist_leader {
 	-webkit-animation: color-change 0.5s 300;
 	-moz-animation: color-change 0.5s 300;
@@ -3425,4 +3415,51 @@ body.congo #wrap>.navbar.navbar-inverse {
 
 .chat-msg-Pirill {
     color: #835b4f;
+}
+
+.server-msg-reconnect {
+    color: #1e2023;
+    background-color: #009900;
+    border: none;
+    border-radius: 1em;
+    font-weight: bold;
+}
+
+.server-msg-disconnect {
+    color: #1e2023;
+    background-color: #f00;
+    border: none;
+    border-radius: 1em;
+    font-weight: bold;
+}
+
+.poll-notify {
+    color: #1e2023;
+    background-color: #f90;
+    border: none;
+    border-radius: 1em;
+    font-weight: bold;
+}
+
+.btn-danger {
+    background-image: none;
+    background: #ec3d39;
+}
+
+.btn-success {
+    background-image none;
+    background: #53be53;
+}
+
+.btn-default {
+    background-image: none;
+    background: #313539;
+}
+.btn-default:hover {
+    background-image: none;
+    background: #0e0f10;
+}
+
+.btn, .btn:hover {
+    text-shadow: none;
 }
