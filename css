@@ -2430,12 +2430,13 @@ body .smoll .channel-emote {
 	max-height: 58px
 }
 
-.shout {
-	font-family: 'Oswald'
-}
 
 .shout:not(.timestamp) {
-	font-size: 1.4em
+	font-size: 3em
+}
+
+.shout.timestamp {
+    font-weight: normal;
 }
 
 #cs-jstext,
@@ -3194,11 +3195,6 @@ div#plmeta {
 
 .synchtube .userlist_item .user-dropdown {
 	right: 136px
-}
-
-.user-dropdown {
-	min-width: 250px !important;
-	width: 250px
 }
 
 .user-dropdown .actions {
