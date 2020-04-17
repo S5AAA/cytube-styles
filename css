@@ -3401,10 +3401,9 @@ body.congo #wrap>.navbar.navbar-inverse {
 
 .drink {
     border: none;
-    background-color: #f1c40f;
-    background-size: 200% 100%;
     background: linear-gradient(to right, #f1c40f 50%, #272b30 50%);
-    animation: fillbg 1s linear;
+    background-size: 200% 100%;
+    animation: fillbg 1.5s ease-in-out;
     margin: 0;
     border-radius: 2em;
     text-align: center;
