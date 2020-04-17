@@ -3416,7 +3416,9 @@ body.congo #wrap>.navbar.navbar-inverse {
 
 .server-msg-reconnect {
     color: #1e2023;
-    background-color: #009900;
+    background: linear-gradient(to right, #009900 50%, #272b30 50%);
+    background-size: 200% 100%;
+    animation: fillbg 0.8s ease;
     border: none;
     border-radius: 1em;
     font-weight: bold;
@@ -3424,7 +3426,9 @@ body.congo #wrap>.navbar.navbar-inverse {
 
 .server-msg-disconnect {
     color: #1e2023;
-    background-color: #f00;
+    background: linear-gradient(to right, #f00 50%, #272b30 50%);
+    background-size: 200% 100%;
+    animation: fillbg 0.8s ease;
     border: none;
     border-radius: 1em;
     font-weight: bold;
@@ -3432,7 +3436,9 @@ body.congo #wrap>.navbar.navbar-inverse {
 
 .poll-notify {
     color: #1e2023;
-    background-color: #f90;
+    background: linear-gradient(to right, #f90 50%, #272b30 50%);
+    background-size: 200% 100%;
+    animation: fillbg 1.5s ease-in-out;
     border: none;
     border-radius: 1em;
     font-weight: bold;
