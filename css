@@ -2480,6 +2480,12 @@ body .smoll .channel-emote {
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0
 }
+#videowrap-header {
+    background: linear-gradient(to right, rgba(20, 22, 26, 0.7) 50%, #0000 50%);
+    border-radius: 1em 1em 0 0;
+    padding: 0 0.5em;
+    background-size: 200% 100%;
+}
 
 a.navbar-brand {
 	background-image: url("https://i.imgur.com/aBOd4ex.png") !important;
