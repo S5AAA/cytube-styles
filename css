@@ -2491,9 +2491,9 @@ body .smoll .channel-emote {
 a.navbar-brand {
 	background-image: url("https://i.imgur.com/XSKJDAF.png") !important;
 	background-repeat: no-repeat;
-	width: 90px;
+	width: 100px;
 	background-position: center center;
-	background-size: auto 43px;
+	background-size: 100px;
 	height: 100%;
 	margin-right: 10px !important;
 	margin-left: 15px !important;
