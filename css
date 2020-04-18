@@ -2485,6 +2485,7 @@ body .smoll .channel-emote {
     border-radius: 1em 1em 0 0;
     padding: 0 0.5em;
     background-size: 200% 100%;
+    border: none;
 }
 
 a.navbar-brand {
