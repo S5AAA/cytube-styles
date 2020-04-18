@@ -2473,8 +2473,7 @@ body .smoll .channel-emote {
 }
 
 #chatheader,
-#currenttitle,
-#videowrap-header {
+#currenttitle {
 	border: 0;
 	border-bottom-width: 0;
 	border-radius: 0;
