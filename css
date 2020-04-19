@@ -2420,9 +2420,11 @@ body .smoll .channel-emote {
 
 .userlist_op .username,
 .userlist_op {
-	color: #2a9fd6 !important;
-	font-style: normal !important;
-	font-weight: bold !important
+    background: -webkit-linear-gradient(-40deg, gold 0%, gold 40%, #fbf0c3 50%, gold 60%, gold 100%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    animation: shine 3s linear infinite;
+    color: #0000 !important;
 }
 
 .channel-emote {
